@@ -2,7 +2,7 @@ name: Build Test Publish Workflow for generic gradle project
 on: 
   push: 
     branches: [ main ] 
-  pull_requests: 
+  pull_request: 
     branches: [ main ] 
 
 jobs:
