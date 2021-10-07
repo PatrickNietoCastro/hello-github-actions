@@ -1,7 +1,14 @@
 name: Build Test Publish Workflow for generic gradle project
 on: 
+<<<<<<< Updated upstream
   push:
     branches: [main, 0001_update_main_yml]
+=======
+  push: 
+    branches: [ main ] 
+  pull_requests: 
+    branches: [ main ] 
+>>>>>>> Stashed changes
 
 jobs:
   build:
