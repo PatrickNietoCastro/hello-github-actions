@@ -1,5 +1,7 @@
-name: A workflow for my Hello World file
-on: push
+name: Build Test Publish Workflow for generic gradle project
+on: 
+  push:
+    branches: [main, 0001_update_main_yml]
 
 jobs:
   build:
